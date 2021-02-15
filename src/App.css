@@ -46,7 +46,8 @@ a {
 }
 
 .navigation nav a{
-  margin: 1em;
+  margin: 2em;
+  border: 1px solid;
 }
 
 .rosten-notes {
@@ -77,6 +78,9 @@ a {
   border: none;
   margin-top: 5em;
   cursor: pointer;
+  -webkit-box-shadow: 0px 0px 39px -17px rgba(133,133,133,1);
+  -moz-box-shadow: 0px 0px 39px -17px rgba(133,133,133,1);
+  box-shadow: 0px 0px 39px -17px rgba(133,133,133,1);
 }
 
 .yellow-bg{
@@ -99,10 +103,14 @@ footer {
 }
 
 footer .icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .icons a{
   margin-top: .8em;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 footer .icon {
